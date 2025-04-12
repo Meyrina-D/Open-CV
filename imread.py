@@ -1,6 +1,6 @@
 import cv2
-img = cv2.imread("/home/administrator/Pictures/istockphoto-1403500817-612x612.jpg")
-cv2.imshow("meyrina", img)
+img = cv2.imread("nature.jpg")
+cv2.imshow("im_read", img)
 height = img.shape[0]
 width = img.shape[1]
 print("Height of Image:", height)
